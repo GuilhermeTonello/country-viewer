@@ -1,0 +1,23 @@
+@use "../colors" as *;
+
+.search-input {
+    
+}
+
+.search-button {
+    padding: 0.5em 0.4em;
+    color: $text-main-color;
+    background: $background-color;
+    border-radius: 35px;
+    border: 2px solid $text-main-color-hover;
+    font-weight: bold;
+    transition: 0.25s;
+
+    &:hover {
+        transition: 0.25s;
+        background: $background-secondary-color;
+        color: $text-main-color-hover;
+        border: 2px solid $text-main-color;
+        box-shadow: 0 0 3px 0 $shadow-color;
+    }
+}
