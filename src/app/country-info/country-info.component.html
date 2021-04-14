@@ -1,0 +1,15 @@
+<ng-container *ngIf="country">
+    <a href="#" routerLink={{country.alpha3Code}}>
+        <div class="card">
+            <img src={{country.flag}} class="card-img-top" />
+            <div class="card-body">
+                <h5 class="card-title">{{country.name}}</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Capital: {{country.capital}}</li>
+                <li class="list-group-item">Region: {{country.region}}</li>
+                <li class="list-group-item">Code: {{country.alpha3Code}}</li>
+            </ul>
+        </div>
+    </a>
+</ng-container>
