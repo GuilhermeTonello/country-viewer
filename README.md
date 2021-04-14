@@ -30,7 +30,7 @@ when you click you will navigate to the countries pages, where you can select by
   ***To install and run this project you must have NodeJs installed***
   1. Download the project using:
       ```sh
-        $ https://github.com/GuilhermeTonello/country-viewer.git
+        $ git clone https://github.com/GuilhermeTonello/country-viewer.git
       ```
       Or just download the zip file clicking on code and then Download ZIP then unzip the file.
   2. Navigate to the project folder and open the terminal on it
