@@ -1,0 +1,13 @@
+@use './colors' as *;
+
+a {
+    text-decoration: none;
+    color: $text-main-color;
+    font-weight: bold;
+    transition: 0.25s;
+
+    &:hover {
+        transition: 0.25s;
+        color: $text-main-color-hover;
+    }
+}
