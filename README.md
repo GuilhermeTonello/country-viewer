@@ -1,27 +1,48 @@
 # CountryViewer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+## Sumary
+ - Project info
+    - Project purpose
+    - What is this project
+    - Technologies used
+ - Installation
+ - Running the app
 
-## Development server
+## Project info
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Project purpose
+This project was made with the purpose to start learning Angular.
 
-## Code scaffolding
+### What is this project
+This project is a country viewer. The home page shows 3 (three) predetermined countries.
+You can search by the country name using the search bar on all pages.
+If you want to see all countries that you can see, bellow all pages you can see a link that
+when you click you will navigate to the countries pages, where you can select by name.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Technologies used
+ - [Angular 11](https://angular.io/)
+ - [Bootstrap](https://getbootstrap.com/)
+ - [Bootstrap Icons](https://icons.getbootstrap.com/)
+ - [NodeJs](https://nodejs.org/en/)
 
-## Build
+## Installation
+  ***To install and run this project you must have NodeJs installed***
+  1. Download the project using:
+      ```sh
+        $ https://github.com/GuilhermeTonello/country-viewer.git
+      ```
+      Or just download the zip file clicking on code and then Download ZIP then unzip the file.
+  2. Navigate to the project folder and open the terminal on it
+  3. After the terminal is opened, type:
+      ```sh
+        $ npm install
+      ```
+  4. Wait until the previous command finish.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Running the app
+  1. After installing the app, using the terminal on the same folder, type:
+      ```sh
+        $ ng serve
+      ```
+  2. Then to access the app, open your browser and type on the url: **localhost:4200**
+  3. To close the app, go to the terminal that is running the app and type: **Ctrl+C**
