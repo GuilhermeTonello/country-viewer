@@ -1,0 +1,33 @@
+<ng-container *ngIf="country">
+    <div class="container">
+        <div class="card mt-5">
+            <div class="row g-0">
+                <div class="col-12 col-md-4">
+                    <img src={{country.flag}} class="card-img-top" />
+                </div>
+                <div class="card-body col-12 col-md-8">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Name: {{country.name}}</li>
+                        <li class="list-group-item">Capital: {{country.capital}}</li>
+                        <li class="list-group-item">Region: {{country.region}}</li>
+                        <li class="list-group-item">Subregion: {{country.subregion}}</li>
+                        <li class="list-group-item">Code: {{country.alpha3Code}}</li>
+                        <li class="list-group-item">Population: {{country.population}}</li>
+                        <li class="list-group-item">
+                            Currencies:
+                            <ul class="list-group list-group-flush">
+                                <li *ngFor="let currency of country.currencies" class="list-group-item">{{currency.name}}</li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item">
+                            Languages:
+                            <ul class="list-group list-group-flush">
+                                <li *ngFor="let language of country.languages" class="list-group-item">{{language.name}}</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-container>
