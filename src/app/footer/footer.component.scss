@@ -1,0 +1,15 @@
+@use "../colors" as *;
+
+footer {
+    background: $background-color;
+    a {
+        text-decoration: none;
+        color: $text-main-color;
+        transition: 0.25s;
+
+        &:hover {
+            transition: 0.25s;
+            color: $text-main-color-hover;
+        }
+    }
+}
