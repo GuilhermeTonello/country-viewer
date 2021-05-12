@@ -47,3 +47,17 @@ when you click you will navigate to the countries pages, where you can select by
       ```
   2. Then to access the app, open your browser and type on the url: **localhost:4200**
   3. To close the app, go to the terminal that is running the app and type: **Ctrl+C**
+
+## Images
+
+#### Home (Computer)
+![Home page](https://github.com/GuilhermeTonello/country-viewer/blob/master/images/home.png?raw=true)
+
+#### Home (Cellphone)
+![Home page](https://github.com/GuilhermeTonello/country-viewer/blob/master/images/home-small.png?raw=true)
+
+#### Country (Computer)
+![Home page](https://github.com/GuilhermeTonello/country-viewer/blob/master/images/country.png?raw=true)
+
+#### Country (Cellphone)
+![Home page](https://github.com/GuilhermeTonello/country-viewer/blob/master/images/country-small.png?raw=true)
